@@ -1,0 +1,150 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background: #fff;
+  color: #2e2f42;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* #region header */
+.header {
+}
+.nav-header {
+}
+.logo-header {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+.logo-style {
+  color: #4d5ae5;
+}
+
+.nav-list-header {
+}
+.nav-header-item {
+}
+.header-nav-item-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.header-nav-item-list:hover {
+  color: #404bbf;
+}
+
+.header-nav-item-list:focus {
+  color: #404bbf;
+}
+
+#en.header-adress-nav {
+}
+.-header-adress-nav-item {
+}
+.header-adress-nav-item-list {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.header-adress-nav-item-list:hover {
+  color: #404bbf;
+}
+.header-adress-nav-item-list:focus {
+  color: #404bbf;
+}
+
+/* #endregion header */
+
+/* #hero */
+.hero {
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+  background: #2e2f42;
+  width: 1440px;
+  height: 600px;
+
+  
+	--iris: #4d5ae5;
+	--ocean: #404bbf;
+	--navy-blue: #2e2f42;
+	--green: #31d0aa;
+	--slate: #434455;
+	--light-slate: #8e8f99;
+	--cornflower: #e7e9fc;
+	--cloud: #f4f4fd;
+	--navy-blue-modal: rgba(46, 47, 66, 0.4);
+	--grey: rgba(46, 47, 66, 0.7);
+	--white: #fff;
+	--dairy: #fcfcfc;
+
+
+  :root {
+  --font-family: "Roboto", sans-serif;
+  --second-family: "Raleway", sans-serif;
+}
+
+.hero-btn {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 10px;
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
+}
+
+/* #hero end */
+
+/* #section2 region */
+
+.section2-title {
+}
+.section2-list {
+}
+.section2-list-item {}
+
+.section2-list-item-title {font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+.section2-list-item-text {font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+/* #section2 endregion */
