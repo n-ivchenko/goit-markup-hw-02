@@ -76,7 +76,8 @@ button {
 
 /* #endregion header */
 
-/* #hero */
+/* #region hero */
+
 .hero {
 }
 .hero-title {
@@ -91,18 +92,7 @@ button {
   height: 600px;
 
   
-	--iris: #4d5ae5;
-	--ocean: #404bbf;
-	--navy-blue: #2e2f42;
-	--green: #31d0aa;
-	--slate: #434455;
-	--light-slate: #8e8f99;
-	--cornflower: #e7e9fc;
-	--cloud: #f4f4fd;
-	--navy-blue-modal: rgba(46, 47, 66, 0.4);
-	--grey: rgba(46, 47, 66, 0.7);
-	--white: #fff;
-	--dairy: #fcfcfc;
+
 
 
   :root {
@@ -124,27 +114,84 @@ button {
   background: #4d5ae5;
 }
 
-/* #hero end */
+/* #endregion hero */
 
-/* #section2 region */
+/* #region section */
 
-.section2-title {
+.section-title {
 }
-.section2-list {
+.section-list {
 }
-.section2-list-item {}
-
-.section2-list-item-title {font-weight: 500;
+.section-list-item {
+}
+.section-item-title {font-weight: 500;
 font-size: 20px;
+
+/* line-height: 24px; */ 
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
 }
-.section2-list-item-text {font-weight: 400;
+.section-item-text {font-weight: 400;
 font-size: 16px;
+
+/* line-height: 24px; */ 
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
 
-/* #section2 endregion */
+/* #endregion section */
+
+/* #region our-team */
+
+.our-team {
+}
+.section-title {font-weight: 700;
+font-size: 36px;
+
+/* line-height: 40px; */ 
+line-height: 1.11111;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+}
+.section-list {
+}
+.section-list-item {
+}
+.section-item-title {
+}
+.section-item-text {
+}
+
+
+/* #endregion our-team */
+
+/* #region footer */
+
+.footer {background: #2e2f42;}
+
+.logo-footer { font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+
+}
+.logo-style {color: #4d5ae5;
+}
+.footer-text {font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #f4f4fd;
+
+background: #2e2f42;
+
+}
+
+/* #endregion footer */
