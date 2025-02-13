@@ -18,21 +18,21 @@ button {
 }
 
 /* #region header */
-.logo-header { 
+.logo-header {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5; }
+  color: #4d5ae5;
+}
 
 .nav-header {
 }
 
 .header .logo-header-style {
   color: #2e2f42;
-
 }
 
 .nav-list-header {
@@ -55,7 +55,7 @@ button {
   color: #404bbf;
 }
 
-.header-adress-nav {font-style: normal;
+.header-adress-nav {
 }
 .header-adress-nav-item {
 }
@@ -65,10 +65,11 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  font-style: normal;
 }
 
 .header-adress-nav-item-list:hover {
-  background-color: #404bbf; 
+  background-color: #404bbf;
 }
 .header-adress-nav-item-list:focus {
   background-color: #404bbf;
@@ -78,19 +79,16 @@ button {
 
 /* #region section hero */
 
-.hero {background: #2e2f42
+.hero {
+  background: #2e2f42;
 }
 .hero-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #fff;
-  width: 1440px;
-  height: 600px;
   text-transform: capitalize;
-  
 }
 
 .hero-btn {
@@ -101,10 +99,14 @@ button {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  background-color: #4D5AE5 ;
+  background-color: #4d5ae5;
 }
-.hero-btn:hover {background-color: #404BBF }
-.hero-btn:focus {background-color: #404BBF }
+.hero-btn:hover {
+  background-color: #404bbf;
+}
+.hero-btn:focus {
+  background-color: #404bbf;
+}
 
 /* #endregion section hero */
 
@@ -139,23 +141,21 @@ button {
 
 /* #region our-team */
 
-.our-team {background-color: #F4F4FD 
+.our-team {
+  background-color: #f4f4fd;
 }
 .section-title {
-  
   font-weight: 700;
   font-size: 36px;
-  text-transform: capitalize
-
-  /* line-height: 40px; */
+  text-transform: capitalize;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #2e2f42;
 }
-.section-list {background-color: #FFFFFF;
+.section-list {
 }
 .section-list-item {
+  background-color: #ffffff;
 }
 .section-item-title {
 }
@@ -184,13 +184,14 @@ button {
   color: #f4f4fd;
 }
 
-.footer-text {font-weight: 400;
-font-size: 16px;
+.footer-text {
+  font-weight: 400;
+  font-size: 16px;
 
-/* line-height: 24px; */ 
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #f4f4fd;
+  /* line-height: 24px; */
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
 
 /* #endregion footer */
