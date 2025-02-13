@@ -76,18 +76,17 @@ button {
 
 /* #endregion header */
 
-/* #region hero */
+/* #region section hero */
 
 .hero {background: #2e2f42
 }
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.11;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  ;
   width: 1440px;
   height: 600px;
   text-transform: capitalize;
@@ -102,10 +101,12 @@ button {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-   background-color: #4D5AE5 ;
+  background-color: #4D5AE5 ;
 }
+.hero-btn:hover {background-color: #404BBF }
+.hero-btn:focus {background-color: #404BBF }
 
-/* #endregion hero */
+/* #endregion section hero */
 
 /* #region section */
 
@@ -120,7 +121,7 @@ button {
   font-size: 20px;
 
   /* line-height: 24px; */
-  line-height: 1.2;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
