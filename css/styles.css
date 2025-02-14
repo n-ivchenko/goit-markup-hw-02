@@ -86,6 +86,7 @@ button {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+  text-align: center;
   letter-spacing: 0.02em;
   color: #fff;
   text-transform: capitalize;
@@ -94,8 +95,6 @@ button {
 .hero-btn {
   font-weight: 500;
   font-size: 16px;
-
-  /* line-height: 24px; */
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
@@ -148,7 +147,8 @@ button {
   font-weight: 700;
   font-size: 36px;
   text-transform: capitalize;
-  line-height: 1.11;
+  text-align: center;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
