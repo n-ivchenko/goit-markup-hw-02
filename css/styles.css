@@ -126,6 +126,7 @@ button {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
 .section-item-text {
   font-weight: 400;
   font-size: 16px;
@@ -146,9 +147,9 @@ button {
 .section-title {
   font-weight: 700;
   font-size: 36px;
+  line-height: 1.11;
   text-transform: capitalize;
   text-align: center;
-  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
@@ -195,3 +196,22 @@ button {
 }
 
 /* #endregion footer */
+
+/* #region section our portfolio */
+
+.Our {
+}
+.Portfolio {
+}
+.section-title {
+}
+.section-list {
+}
+.section-list-item {
+}
+.section-item-title {
+}
+.section-item-text {
+}
+
+/* endregion our portfolio */
