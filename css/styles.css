@@ -8,8 +8,8 @@ a {
   text-decoration: none;
 }
 
-ul,
-ol {
+.ul,
+.ol {
   list-style-type: none;
 }
 
@@ -112,6 +112,7 @@ button {
 /* #region section */
 
 .section-title {
+  line-height: 1.2;
 }
 .section-list {
 }
@@ -120,8 +121,6 @@ button {
 .section-item-title {
   font-weight: 500;
   font-size: 20px;
-
-  /* line-height: 24px; */
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #2e2f42;
@@ -130,8 +129,6 @@ button {
 .section-item-text {
   font-weight: 400;
   font-size: 16px;
-
-  /* line-height: 24px; */
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
@@ -147,7 +144,7 @@ button {
 .section-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11;
+  line-height: 1.2;
   text-transform: capitalize;
   text-align: center;
   letter-spacing: 0.02em;
@@ -164,6 +161,24 @@ button {
 }
 
 /* #endregion our-team */
+
+/* #region section our portfolio */
+
+.our-portfolio {
+}
+.section-title {
+  line-height: 1.2;
+}
+.section-list {
+}
+.section-list-item {
+}
+.section-item-title {
+}
+.section-item-text {
+}
+
+/* endregion our portfolio */
 
 /* #region footer */
 
@@ -196,22 +211,3 @@ button {
 }
 
 /* #endregion footer */
-
-/* #region section our portfolio */
-
-.Our {
-}
-.Portfolio {
-}
-.section-title {
-}
-.section-list {
-}
-.section-list-item {
-}
-.section-item-title {
-}
-.section-item-text {
-}
-
-/* endregion our portfolio */
