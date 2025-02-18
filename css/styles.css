@@ -74,10 +74,10 @@ button {
 }
 
 .header-adress-nav-item-list:hover {
-  background-color: #404bbf;
+  color: #404bbf;
 }
 .header-adress-nav-item-list:focus {
-  background-color: #404bbf;
+  color: #404bbf;
 }
 
 /* #endregion header */
@@ -148,7 +148,7 @@ button {
 .section-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.2;
+  line-height: 1.11;
   text-transform: capitalize;
   text-align: center;
   letter-spacing: 0.02em;
@@ -173,7 +173,7 @@ button {
 .our-portfolio {
 }
 .section-title {
-  line-height: 1.2;
+  line-height: 1.11;
 }
 .section-list {
 }
