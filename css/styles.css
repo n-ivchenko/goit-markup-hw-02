@@ -18,6 +18,7 @@ button {
 }
 
 /* #region header */
+
 .logo-header {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -86,6 +87,7 @@ button {
 .hero {
   background: #2e2f42;
 }
+
 .hero-title {
   font-weight: 700;
   font-size: 56px;
@@ -104,6 +106,7 @@ button {
   color: #fff;
   background-color: #4d5ae5;
 }
+
 .hero-btn:hover {
   background-color: #404bbf;
 }
@@ -114,13 +117,6 @@ button {
 /* #endregion section hero */
 
 /* #region section */
-
-.section-title {
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
-}
 
 .section-list {
 }
@@ -158,8 +154,10 @@ button {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
 .section-list {
 }
+
 .section-list-item {
   background-color: #ffffff;
 }
@@ -211,8 +209,6 @@ button {
 .footer-text {
   font-weight: 400;
   font-size: 16px;
-
-  /* line-height: 24px; */
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
